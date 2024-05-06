@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 80%;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header, footer {
+    background-color: cadetblue;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+header h1 {
+    color: white;
+    padding: 5px;
+}
+
+a {
+    text-align: center;
+    font-weight: bolder;
+    
+}
+
+a:hover {
+    color: red;
+}
+
+.cabecera {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: rgba(95, 158, 160, 0.7);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+
+.principal {
+    text-align: center;
+    width: 40%;
+    margin: 10px auto;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgba(95, 158, 160, 0.5);
+}
+
+h1,
+h2,
+h3 {
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 14px;
+}
+
+p {
+    text-align: center;
+    margin: 8px;
+    /* font-weight: bolder; */
+}
+
+table {
+    background-color: rgba(95, 158, 160, 0.2);
+    padding: 15px;
+    border: 1px solid black;
+    width: 70%;
+    margin: 0 auto;
+}
+
+table tr td {
+    text-align: center;
+    font-size: 14px;
+}
+
+.tabla_foro {
+    width: 90%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.tabla_foro thead th, tfoot
+ {
+    background-color: #d8d8d8;
+    color: #333;
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+
+.tabla_foro tbody td {
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+
+.tabla_foro tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.tabla_foro tbody tr:hover {
+    background-color: #ddd;
+}
+
+
+#btn_submit,
+#btn_logar,
+#btn_enviar,
+input[type="submit"] {
+    padding: 5px 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+    font-weight: bolder;
+    margin-top: 20px;
+}

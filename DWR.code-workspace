@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "../../../../Users/USUARIO/Desktop/DWR"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../../../Users/USUARIO/Desktop/Joaquín/SEAS/04 php/04/carlos_sanz"
+		},
+		{
+			"path": "../../../../Users/USUARIO/Desktop/Joaquín/SEAS/04 php/codigo/codigo"
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501,
+		"liveServer.settings.multiRootWorkspaceName": "DWR"
+	}
+}
